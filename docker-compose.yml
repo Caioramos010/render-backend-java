@@ -9,9 +9,9 @@ services:
       - "5432:5432"
     restart: always
     environment:
-      - POSTGRES_DB=exemplos
-      - POSTGRES_USER=senac
-      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=caio_teste
+      - POSTGRES_USER=caio
+      - POSTGRES_PASSWORD=by302OQCcDYKSlF42DaxHzj9n9W7jPoO
     volumes:
       - ./src/main/resources/scripts:/docker-entrypoint-initdb.d
 # Serviço para a sua aplicação Java
